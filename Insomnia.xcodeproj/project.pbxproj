@@ -3,125 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		089C1680FE841241C02AAC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		1A224C40FF42367911CA2CB7 /* Insomnia.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A224C3EFF42367911CA2CB7 /* Insomnia.h */; };
-		1A224C41FF42367911CA2CB7 /* Insomnia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* Insomnia.cpp */; settings = {ATTRIBUTES = (); }; };
-		FA9558630BEA41E7006F6AE9 /* Insomnia.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A224C3EFF42367911CA2CB7 /* Insomnia.h */; };
-		FA9558650BEA41E7006F6AE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		FA9558670BEA41E7006F6AE9 /* Insomnia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* Insomnia.cpp */; settings = {ATTRIBUTES = (); }; };
-		FA95587E0BEA42A9006F6AE9 /* Insomnia.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A224C3EFF42367911CA2CB7 /* Insomnia.h */; };
-		FA9558800BEA42A9006F6AE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		FA9558820BEA42A9006F6AE9 /* Insomnia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* Insomnia.cpp */; settings = {ATTRIBUTES = (); }; };
+		7B252D7E17369F0A004CDB57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B252D7C17369F0A004CDB57 /* InfoPlist.strings */; };
+		7B252D8117369F0A004CDB57 /* Insomnia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B252D8017369F0A004CDB57 /* Insomnia.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildRule section */
-		FA7658A80BECEE1700F87000 /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.gcc;
-			fileType = sourcecode.c;
-			isEditable = 1;
-			outputFiles = (
-			);
-		};
-/* End PBXBuildRule section */
-
-/* Begin PBXBundleTarget section */
-		089C1673FE841209C02AAC07 /* nosleep */ = {
-			isa = PBXBundleTarget;
-			buildConfigurationList = 38866ACC0BE7097500F7DAB6 /* Build configuration list for PBXBundleTarget "nosleep" */;
-			buildPhases = (
-				06AA1267FFB2110C11CA28AA /* ShellScript */,
-				089C1674FE841209C02AAC07 /* Headers */,
-				089C1675FE841209C02AAC07 /* Resources */,
-				089C1676FE841209C02AAC07 /* Sources */,
-				089C1677FE841209C02AAC07 /* Frameworks */,
-				089C1679FE841209C02AAC07 /* Rez */,
-				06AA1264FFB2107B11CA28AA /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = nosleep;
-			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-			productName = nosleep;
-			productReference = 0B81C263FFB7832611CA28AA /* Insomnia.kext */;
-			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
-<plist version=\"1.0\">
-<dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
-	<key>CFBundleExecutable</key>
-	<string>Insomnia</string>
-	<key>CFBundleIconFile</key>
-	<string></string>
-	<key>CFBundleIdentifier</key>
-	<string>org.binaervarianz.driver.insomnia</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-	<key>CFBundlePackageType</key>
-	<string>KEXT</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
-	<key>CFBundleVersion</key>
-	<string>1.0.0d1</string>
-	<key>IOKitPersonalities</key>
-	<dict>
-		<key>Insomnia</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>org.binaervarianz.driver.insomnia</string>
-			<key>IOClass</key>
-			<string>Insomnia</string>
-			<key>IOMatchCategory</key>
-			<string>IODefaultMatchCategory</string>
-			<key>IONameMatch</key>
-			<string>IOPMrootDomain</string>
-			<key>IOProviderClass</key>
-			<string>IOService</string>
-		</dict>
-	</dict>
-	<key>OSBundleLibraries</key>
-	<dict>
-		<key>com.apple.kernel.iokit</key>
-		<string>6.0</string>
-	</dict>
-</dict>
-</plist>
-";
-		};
-/* End PBXBundleTarget section */
-
 /* Begin PBXFileReference section */
-		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0B81C263FFB7832611CA28AA /* Insomnia.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Insomnia.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A224C3EFF42367911CA2CB7 /* Insomnia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Insomnia.h; sourceTree = "<group>"; };
-		1A224C3FFF42367911CA2CB7 /* Insomnia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Insomnia.cpp; sourceTree = "<group>"; };
-		FA95586F0BEA41E7006F6AE9 /* Info-nosleep__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-nosleep__Upgraded_.plist"; sourceTree = "<group>"; };
-		FA9558700BEA41E7006F6AE9 /* Insomnia.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Insomnia.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA95588A0BEA42A9006F6AE9 /* Insomnia.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Insomnia.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA95588B0BEA42A9006F6AE9 /* Info-nosleep__Upgraded_copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-nosleep__Upgraded_copy.plist"; sourceTree = "<group>"; };
+		7B252D7417369F0A004CDB57 /* Insomnia.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Insomnia.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B252D7817369F0A004CDB57 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		7B252D7B17369F0A004CDB57 /* Insomnia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Insomnia-Info.plist"; sourceTree = "<group>"; };
+		7B252D7D17369F0A004CDB57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B252D7F17369F0A004CDB57 /* Insomnia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Insomnia.h; sourceTree = "<group>"; };
+		7B252D8017369F0A004CDB57 /* Insomnia.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Insomnia.cpp; sourceTree = "<group>"; };
+		7B252D8217369F0A004CDB57 /* Insomnia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Insomnia-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		089C1677FE841209C02AAC07 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA9558680BEA41E7006F6AE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA9558830BEA42A9006F6AE9 /* Frameworks */ = {
+		7B252D6F17369F0A004CDB57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,180 +32,130 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		089C166AFE841209C02AAC07 /* Insomnia */ = {
+		7B252D6917369F0A004CDB57 = {
 			isa = PBXGroup;
 			children = (
-				247142CAFF3F8F9811CA285C /* Source */,
-				089C167CFE841241C02AAC07 /* Resources */,
-				19C28FB6FE9D52B211CA2CBB /* Products */,
-				FA95586F0BEA41E7006F6AE9 /* Info-nosleep__Upgraded_.plist */,
-				FA95588B0BEA42A9006F6AE9 /* Info-nosleep__Upgraded_copy.plist */,
+				7B252D7917369F0A004CDB57 /* Insomnia */,
+				7B252D7617369F0A004CDB57 /* Frameworks */,
+				7B252D7517369F0A004CDB57 /* Products */,
 			);
-			name = Insomnia;
 			sourceTree = "<group>";
 		};
-		089C167CFE841241C02AAC07 /* Resources */ = {
+		7B252D7517369F0A004CDB57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		19C28FB6FE9D52B211CA2CBB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0B81C263FFB7832611CA28AA /* Insomnia.kext */,
-				FA9558700BEA41E7006F6AE9 /* Insomnia.kext */,
-				FA95588A0BEA42A9006F6AE9 /* Insomnia.kext */,
+				7B252D7417369F0A004CDB57 /* Insomnia.kext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		247142CAFF3F8F9811CA285C /* Source */ = {
+		7B252D7617369F0A004CDB57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1A224C3EFF42367911CA2CB7 /* Insomnia.h */,
-				1A224C3FFF42367911CA2CB7 /* Insomnia.cpp */,
+				7B252D7717369F0A004CDB57 /* Other Frameworks */,
 			);
-			name = Source;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B252D7717369F0A004CDB57 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B252D7817369F0A004CDB57 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7B252D7917369F0A004CDB57 /* Insomnia */ = {
+			isa = PBXGroup;
+			children = (
+				7B252D7F17369F0A004CDB57 /* Insomnia.h */,
+				7B252D8017369F0A004CDB57 /* Insomnia.cpp */,
+				7B252D7A17369F0A004CDB57 /* Supporting Files */,
+			);
+			path = Insomnia;
+			sourceTree = "<group>";
+		};
+		7B252D7A17369F0A004CDB57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B252D7B17369F0A004CDB57 /* Insomnia-Info.plist */,
+				7B252D7C17369F0A004CDB57 /* InfoPlist.strings */,
+				7B252D8217369F0A004CDB57 /* Insomnia-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		089C1674FE841209C02AAC07 /* Headers */ = {
+		7B252D7017369F0A004CDB57 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A224C40FF42367911CA2CB7 /* Insomnia.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA9558620BEA41E7006F6AE9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA9558630BEA41E7006F6AE9 /* Insomnia.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA95587D0BEA42A9006F6AE9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA95587E0BEA42A9006F6AE9 /* Insomnia.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		FA9558600BEA41E7006F6AE9 /* nosleep (Upgraded) */ = {
+		7B252D7317369F0A004CDB57 /* Insomnia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA95586B0BEA41E7006F6AE9 /* Build configuration list for PBXNativeTarget "nosleep (Upgraded)" */;
+			buildConfigurationList = 7B252D8517369F0A004CDB57 /* Build configuration list for PBXNativeTarget "Insomnia" */;
 			buildPhases = (
-				FA9558610BEA41E7006F6AE9 /* ShellScript */,
-				FA9558620BEA41E7006F6AE9 /* Headers */,
-				FA9558640BEA41E7006F6AE9 /* Resources */,
-				FA9558660BEA41E7006F6AE9 /* Sources */,
-				FA9558680BEA41E7006F6AE9 /* Frameworks */,
-				FA9558690BEA41E7006F6AE9 /* Rez */,
-				FA95586A0BEA41E7006F6AE9 /* ShellScript */,
+				7B252D6E17369F0A004CDB57 /* Sources */,
+				7B252D6F17369F0A004CDB57 /* Frameworks */,
+				7B252D7017369F0A004CDB57 /* Headers */,
+				7B252D7117369F0A004CDB57 /* Resources */,
+				7B252D7217369F0A004CDB57 /* Rez */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "nosleep (Upgraded)";
-			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-			productName = nosleep;
-			productReference = FA9558700BEA41E7006F6AE9 /* Insomnia.kext */;
-			productType = "com.apple.product-type.kernel-extension.iokit";
-		};
-		FA95587B0BEA42A9006F6AE9 /* nosleep FINAL */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA9558860BEA42A9006F6AE9 /* Build configuration list for PBXNativeTarget "nosleep FINAL" */;
-			buildPhases = (
-				FA95587C0BEA42A9006F6AE9 /* ShellScript */,
-				FA95587D0BEA42A9006F6AE9 /* Headers */,
-				FA95587F0BEA42A9006F6AE9 /* Resources */,
-				FA9558810BEA42A9006F6AE9 /* Sources */,
-				FA9558830BEA42A9006F6AE9 /* Frameworks */,
-				FA9558840BEA42A9006F6AE9 /* Rez */,
-				FA9558850BEA42A9006F6AE9 /* ShellScript */,
-			);
-			buildRules = (
-				FA7658A80BECEE1700F87000 /* PBXBuildRule */,
-			);
-			dependencies = (
-			);
-			name = "nosleep FINAL";
-			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-			productName = nosleep;
-			productReference = FA95588A0BEA42A9006F6AE9 /* Insomnia.kext */;
-			productType = "com.apple.product-type.kernel-extension.iokit";
+			name = Insomnia;
+			productName = Insomnia;
+			productReference = 7B252D7417369F0A004CDB57 /* Insomnia.kext */;
+			productType = "com.apple.product-type.kernel-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		089C1669FE841209C02AAC07 /* Project object */ = {
+		7B252D6A17369F0A004CDB57 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 38866AD00BE7097500F7DAB6 /* Build configuration list for PBXProject "Insomnia" */;
-			hasScannedForEncodings = 1;
-			mainGroup = 089C166AFE841209C02AAC07 /* Insomnia */;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Frost Land";
+			};
+			buildConfigurationList = 7B252D6D17369F0A004CDB57 /* Build configuration list for PBXProject "Insomnia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B252D6917369F0A004CDB57;
+			productRefGroup = 7B252D7517369F0A004CDB57 /* Products */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
-				FA9558600BEA41E7006F6AE9 /* nosleep (Upgraded) */,
-				089C1673FE841209C02AAC07 /* nosleep */,
-				FA95587B0BEA42A9006F6AE9 /* nosleep FINAL */,
+				7B252D7317369F0A004CDB57 /* Insomnia */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		089C1675FE841209C02AAC07 /* Resources */ = {
+		7B252D7117369F0A004CDB57 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				089C1680FE841241C02AAC07 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA9558640BEA41E7006F6AE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA9558650BEA41E7006F6AE9 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA95587F0BEA42A9006F6AE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA9558800BEA42A9006F6AE9 /* InfoPlist.strings in Resources */,
+				7B252D7E17369F0A004CDB57 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXRezBuildPhase section */
-		089C1679FE841209C02AAC07 /* Rez */ = {
-			isa = PBXRezBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA9558690BEA41E7006F6AE9 /* Rez */ = {
-			isa = PBXRezBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA9558840BEA42A9006F6AE9 /* Rez */ = {
+		7B252D7217369F0A004CDB57 /* Rez */ = {
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,95 +164,22 @@
 		};
 /* End PBXRezBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		06AA1264FFB2107B11CA28AA /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPostprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
-		};
-		06AA1267FFB2110C11CA28AA /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPreprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
-		};
-		FA9558610BEA41E7006F6AE9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPreprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
-		};
-		FA95586A0BEA41E7006F6AE9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPostprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
-		};
-		FA95587C0BEA42A9006F6AE9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPreprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
-		};
-		FA9558850BEA42A9006F6AE9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPostprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		089C1676FE841209C02AAC07 /* Sources */ = {
+		7B252D6E17369F0A004CDB57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A224C41FF42367911CA2CB7 /* Insomnia.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA9558660BEA41E7006F6AE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA9558670BEA41E7006F6AE9 /* Insomnia.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA9558810BEA42A9006F6AE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA9558820BEA42A9006F6AE9 /* Insomnia.cpp in Sources */,
+				7B252D8117369F0A004CDB57 /* Insomnia.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+		7B252D7C17369F0A004CDB57 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C167EFE841241C02AAC07 /* English */,
+				7B252D7D17369F0A004CDB57 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -409,344 +187,114 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		38866ACD0BE7097500F7DAB6 /* Development */ = {
+		7B252D8317369F0A004CDB57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				HEADER_SEARCH_PATHS = "";
-				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-				KERNEL_MODULE = YES;
-				LIBRARY_SEARCH_PATHS = "";
-				MODULE_IOKIT = YES;
-				MODULE_NAME = org.binaervarianz.driver.insomnia;
-				MODULE_VERSION = 1.0.0d1;
-				OPTIMIZATION_CFLAGS = "-O0";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Insomnia;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
 				);
-				WRAPPER_EXTENSION = kext;
-				ZERO_LINK = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 			};
-			name = Development;
+			name = Debug;
 		};
-		38866ACE0BE7097500F7DAB6 /* Deployment */ = {
+		7B252D8417369F0A004CDB57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				HEADER_SEARCH_PATHS = "";
-				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-				KERNEL_MODULE = YES;
-				LIBRARY_SEARCH_PATHS = "";
-				MODULE_IOKIT = YES;
-				MODULE_NAME = org.binaervarianz.driver.insomnia;
-				MODULE_VERSION = 1.0.0d1;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Insomnia;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = kext;
-				ZERO_LINK = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
 			};
-			name = Deployment;
+			name = Release;
 		};
-		38866ACF0BE7097500F7DAB6 /* Default */ = {
+		7B252D8617369F0A004CDB57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = "";
-				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-				KERNEL_MODULE = YES;
-				LIBRARY_SEARCH_PATHS = "";
-				MODULE_IOKIT = YES;
-				MODULE_NAME = org.binaervarianz.driver.insomnia;
-				MODULE_VERSION = 1.0.0d1;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Insomnia;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Insomnia/Insomnia-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "Insomnia/Insomnia-Info.plist";
+				MODULE_NAME = fr.frostland.Insomnia;
+				MODULE_VERSION = 1.1.1d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
-			name = Default;
+			name = Debug;
 		};
-		38866AD10BE7097500F7DAB6 /* Development */ = {
+		7B252D8717369F0A004CDB57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-			};
-			name = Development;
-		};
-		38866AD20BE7097500F7DAB6 /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Deployment;
-		};
-		38866AD30BE7097500F7DAB6 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Default;
-		};
-		FA95586C0BEA41E7006F6AE9 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-nosleep__Upgraded_.plist";
-				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-				KERNEL_MODULE = YES;
-				LIBRARY_SEARCH_PATHS = "";
-				MODULE_IOKIT = YES;
-				MODULE_NAME = org.binaervarianz.driver.insomnia;
-				MODULE_VERSION = 1.0.0d1;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Insomnia;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = kext;
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		FA95586D0BEA41E7006F6AE9 /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-nosleep__Upgraded_.plist";
-				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-				KERNEL_MODULE = YES;
-				LIBRARY_SEARCH_PATHS = "";
-				MODULE_IOKIT = YES;
-				MODULE_NAME = org.binaervarianz.driver.insomnia;
-				MODULE_VERSION = 1.0.0d1;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Insomnia;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = kext;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		FA95586E0BEA41E7006F6AE9 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-nosleep__Upgraded_.plist";
-				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-				KERNEL_MODULE = YES;
-				LIBRARY_SEARCH_PATHS = "";
-				MODULE_IOKIT = YES;
-				MODULE_NAME = org.binaervarianz.driver.insomnia;
-				MODULE_VERSION = 1.0.0d1;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Insomnia;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Insomnia/Insomnia-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "Insomnia/Insomnia-Info.plist";
+				MODULE_NAME = fr.frostland.Insomnia;
+				MODULE_VERSION = 1.1.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
-			name = Default;
-		};
-		FA9558870BEA42A9006F6AE9 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "/Users/alex/Desktop/Insomnia/Info-nosleep__Upgraded_ copy.plist";
-				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-				KERNEL_MODULE = YES;
-				LIBRARY_SEARCH_PATHS = "";
-				MODULE_IOKIT = YES;
-				MODULE_NAME = org.binaervarianz.driver.insomnia;
-				MODULE_VERSION = 1.0.0d1;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Insomnia;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = kext;
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		FA9558880BEA42A9006F6AE9 /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THREADSAFE_STATICS = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-nosleep__Upgraded_copy.plist";
-				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-				KERNEL_MODULE = YES;
-				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				MODULE_IOKIT = YES;
-				MODULE_NAME = org.binaervarianz.driver.insomnia;
-				MODULE_VERSION = 1.1.0;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Insomnia;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = kext;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		FA9558890BEA42A9006F6AE9 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "/Users/alex/Desktop/Insomnia/Info-nosleep__Upgraded_ copy.plist";
-				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-				KERNEL_MODULE = YES;
-				LIBRARY_SEARCH_PATHS = "";
-				MODULE_IOKIT = YES;
-				MODULE_NAME = org.binaervarianz.driver.insomnia;
-				MODULE_VERSION = 1.0.0d1;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Insomnia;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = kext;
-			};
-			name = Default;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		38866ACC0BE7097500F7DAB6 /* Build configuration list for PBXBundleTarget "nosleep" */ = {
+		7B252D6D17369F0A004CDB57 /* Build configuration list for PBXProject "Insomnia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38866ACD0BE7097500F7DAB6 /* Development */,
-				38866ACE0BE7097500F7DAB6 /* Deployment */,
-				38866ACF0BE7097500F7DAB6 /* Default */,
+				7B252D8317369F0A004CDB57 /* Debug */,
+				7B252D8417369F0A004CDB57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
-		38866AD00BE7097500F7DAB6 /* Build configuration list for PBXProject "Insomnia" */ = {
+		7B252D8517369F0A004CDB57 /* Build configuration list for PBXNativeTarget "Insomnia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38866AD10BE7097500F7DAB6 /* Development */,
-				38866AD20BE7097500F7DAB6 /* Deployment */,
-				38866AD30BE7097500F7DAB6 /* Default */,
+				7B252D8617369F0A004CDB57 /* Debug */,
+				7B252D8717369F0A004CDB57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
-		};
-		FA95586B0BEA41E7006F6AE9 /* Build configuration list for PBXNativeTarget "nosleep (Upgraded)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA95586C0BEA41E7006F6AE9 /* Development */,
-				FA95586D0BEA41E7006F6AE9 /* Deployment */,
-				FA95586E0BEA41E7006F6AE9 /* Default */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
-		};
-		FA9558860BEA42A9006F6AE9 /* Build configuration list for PBXNativeTarget "nosleep FINAL" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA9558870BEA42A9006F6AE9 /* Development */,
-				FA9558880BEA42A9006F6AE9 /* Deployment */,
-				FA9558890BEA42A9006F6AE9 /* Default */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+	rootObject = 7B252D6A17369F0A004CDB57 /* Project object */;
 }
