@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>fr.frostland.insomnia</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -21,7 +21,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.1.1</string>
+	<string>1.1.2</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Insomnia</key>
@@ -39,14 +39,14 @@
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Original by Michael Rossberg. Recompiled by Frost Land in 2013.</string>
+	<string>Original by Michael Rossberg. Recompiled by Frost Land in 2016.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
+		<key>com.apple.kpi.bsd</key>
+		<string>12.3</string>
 		<key>com.apple.kpi.iokit</key>
 		<string>12.3</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>12.3</string>
-		<key>com.apple.kpi.bsd</key>
 		<string>12.3</string>
 	</dict>
 </dict>

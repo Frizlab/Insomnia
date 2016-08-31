@@ -30,11 +30,11 @@ class Insomnia : public IOService {
 	
 public:
 	// driver startup and shutdown
-	virtual bool init(OSDictionary * = 0);
-	virtual bool start(IOService* provider);
-	virtual void stop(IOService* provider);
-	virtual void free();
-	virtual IOReturn message(UInt32 type, IOService *provider, void *argument = 0);
+	virtual bool init(OSDictionary * = 0) override;
+	virtual bool start(IOService* provider) override;
+	virtual void stop(IOService* provider) override;
+	virtual void free() override;
+	virtual IOReturn message(UInt32 type, IOService *provider, void *argument = 0) override;
 	virtual IOWorkLoop* getWorkLoop();
 	virtual bool send_event(UInt32 msg);
 	
